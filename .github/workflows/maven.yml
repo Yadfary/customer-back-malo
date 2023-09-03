@@ -23,5 +23,5 @@ jobs:
 
      - name: Build with Maven
        run: |
-         mvn clean install
+         mvnw clean install
          echo "build with maven"
