@@ -21,7 +21,7 @@ jobs:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '17'
 
-     - name: Build with Maven
+     - name: build with maven
        run: |
-         mvn clean install
-          echo "build with maven"
+        mvn clean install
+        echo "build with maven"
